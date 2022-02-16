@@ -9,10 +9,30 @@
     <title>TheWhale Website</title>
 
     <!-- <link rel="icon" href="./images/test.ico" /> -->
+    <style>
+      h2,
+      #privateWelcomeMSG {
+        background-color: #ff8800;
+        color: white;
+      }
+
+      .card {
+        background-color: blue;
+        color: white;
+        border: 5px solid black;
+      }
+
+      .card h2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <header id="publicWelcomeMSG">
-      <h2>Welcome</h2>
+    <header class="card" id="publicWelcomeMSG">
+      <div>
+        <h2>Welcome</h2>
+      </div>
       <h3>To my Website</h3>
       <p>My Name is Hassan Khalaf. I like web development!</p>
     </header>
@@ -31,7 +51,7 @@
         </section>
       </header>
 
-      <section>
+      <section class="card">
         <h2>Hi</h2>
         <h3>To this page</h3>
         <p>I hope you enjoy it.</p>
