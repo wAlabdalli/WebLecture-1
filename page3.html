@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      .text-white {
+        color: white;
+      }
+      .center {
+        text-align: center;
+      }
+      .text-decoration {
+        text-decoration: line-through;
+      }
+      .shadow {
+        text-shadow: 0px 0px 5px rgb(123, 19, 155);
+      }
+      .text-indent {
+        text-indent: 32px;
+      }
+      p {
+        color: grey;
+        /* font-size: 32px; */
+        font-weight: bold;
+        font-style: italic;
+        font-family: "Courier New", Courier, monospace;
+      }
+      p:hover {
+        color: red;
+      }
+      p.longText::first-line {
+        font-size: 20px;
+      }
+      .block {
+        display: block;
+      }
+      .myPic {
+        width: 150px;
+        margin-left: 10px;
+        opacity: 1;
+      }
+      #mainSection {
+        background-image: url(https://wallpaper.dog/large/20518448.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        border: 5px solid grey;
+        padding: 10px;
+      }
+
+      .changeDot {
+        list-style: square;
+      }
+
+      .changeNumber {
+        list-style: upper-roman;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="changeDot">
+      <li>Salam</li>
+      <li>Hi</li>
+      <li>Welcome</li>
+    </ul>
+
+    <ol class="changeNumber">
+      <li>Salam</li>
+      <li>Hi</li>
+      <li>Welcome</li>
+    </ol>
+    <!-- <section id="mainSection">
+      <section class="center">
+        <p class="shadow">Hello World!</p>
+        <img class="myPic" src="./images/myPicture.png" alt="My Pic" />
+      </section>
+      <span class="block center">HI! I am a span!</span>
+      <a href="https://google.com" target="_blank"
+        >Click me to open google in a new tab</a
+      >
+      <p class="longText text-white text-decoration text-indent shadow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quam
+        ipsum itaque quasi impedit nesciunt perferendis eaque ea molestiae
+        deleniti? Excepturi, facere enim officia sapiente voluptas magnam eius
+        nulla maxime at. Rerum iure ratione in soluta animi aut impedit vel
+        laboriosam, repudiandae harum deleniti deserunt eius beatae corporis
+        mollitia ex. Incidunt consequatur sequi ad sapiente iste, architecto rem
+        corrupti a assumenda amet veritatis ea odit distinctio esse dignissimos
+        quas hic, expedita dolorum. Accusamus non eos, doloremque commodi
+        laudantium necessitatibus quisquam tenetur, quis vel corporis quos
+        expedita temporibus cupiditate perspiciatis a error molestias deleniti
+        iste adipisci quia tempore laborum itaque exercitationem!
+      </p>
+    </section> -->
+  </body>
+</html>
